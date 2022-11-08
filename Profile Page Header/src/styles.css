@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #16243c;
+  font-family: "Trispace", sans-serif;
+}
+
+.App {
+  /* font-family: sans-serif;
+  text-align: center; */
+  background-color: #e2e2e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.4rem;
+}
+
+.container {
+  width: 70%;
+  height: 40%;
+  padding: 2rem;
+  background-color: rgb(11, 247, 188);
+  border-radius: 3rem;
+  box-shadow: 2px 1px 10px 10px rgb(223, 166, 166);
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  /* border: 1px solid red; */
+  /* overflow:; */
+}
+
+.right {
+  width: 40%;
+  /* border: 1px solid red; */
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 40%;
+  height: 8rem;
+  /* position:absolute;
+  top: 3rem;
+  left: 3rem; */
+}
+
+.bio {
+  text-align: justify;
+}
+
+ul {
+  margin-top: 1rem;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+input {
+  accent-color: #f27b34;
+  width: 100%;
+}
+
+.org {
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.info {
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+
+.follow-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+button {
+  border: none;
+  background-color: #16243c;
+  color: white;
+  width: 12rem;
+  height: 4.5rem;
+  border-radius: 0.7rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
