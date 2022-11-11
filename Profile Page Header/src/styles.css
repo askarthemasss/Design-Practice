@@ -41,6 +41,7 @@ html {
   align-items: flex-start;
   gap: 0.6rem;
   height: 100%;
+  position: relative;
   /* border: 1px solid red; */
   /* overflow:; */
 }
@@ -68,6 +69,8 @@ img {
 
 ul {
   margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
 }
 
 li {
@@ -128,16 +131,10 @@ button {
   .left {
     gap: 0.4rem;
     width: 45%;
-    position: relative;
     /* border: 1px solid red; */
   }
   img {
     height: 5rem;
-  }
-  ul {
-    /* margin-top: 0.6rem; */
-    position: absolute;
-    bottom: 0;
   }
   li {
     font-size: 1.5rem;
@@ -157,9 +154,6 @@ button {
   }
   .info {
     font-size: 0.7rem;
-  }
-  input {
-    /* height: 3rem; */
   }
   .follow-section {
     /* padding: 0; */
